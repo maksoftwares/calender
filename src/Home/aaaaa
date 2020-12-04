@@ -1,0 +1,9 @@
+import {Inject,ScheduleComponent,Day,Week,WorkWeek,Month,Agenda,
+        EventSettingsModel} from '@syncfusion/ej2-react-schedule';
+
+EventSettingsModel={
+        dataSource:[{
+            EndTime: new Date(2019,0,11,6,30),
+            StartTime: new Date(2019,0,11,6,30)
+        }]
+    };
